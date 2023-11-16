@@ -1,0 +1,17 @@
+- What is the difference between ***var*** and ***let***?
+
+let has scope block, you can declare a variable at the beggining of your code and redeclare that variable again in a new code block without affecting the previous one. 
+
+- What is the difference between **var** and ***const***?
+
+const you cannot redeclare or reassign and it also has scope block. 
+
+- What is the difference between **let** and **const**?
+
+let you can reassign
+
+- What is hoisting?
+
+hosting is with var. All of the var declorations are looked at first when you run code. if you for example console.log a variable you have declared later in your code, it will return undefined. Console.log after you declared it and it will show what you assigned. If you had not declared that variable anywhere in your code it will give you an error. 
+
+let and const wont let you do this and you will get an error when you try to do anything with a variable that has not been declared yet.
